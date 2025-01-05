@@ -1,0 +1,97 @@
+# =============== #
+# Unity generated #
+# =============== #
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings
+*.stackdump
+# ============================ #
+# Never ignore Asset meta data #
+# ============================ #
+!/[Aa]ssets/**/*.meta
+
+# ====================================================================== #
+# Uncomment this line if you wish to ignore the asset store tools plugin #
+# ====================================================================== #
+# /[Aa]ssets/AssetStoreTools*
+
+# ================== #
+# TextMesh Pro files #
+# ================== #
+[Aa]ssets/TextMesh*Pro/
+
+# ============================= #
+# Visual Studio cache directory #
+# ============================= #
+.vs/
+
+# ====================== #
+# Gradle cache directory #
+# ====================== #
+.gradle/
+
+# ============================================= #
+# Visual Studio / MonoDevelop / Rider generated #
+# ============================================= #
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.vsconfig
+
+# ============================ #
+# Unity3D generated meta files #
+# ============================ #
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ======================================= #
+# Unity3D generated file on crash reports #
+# ======================================= #
+sysinfo.txt
+
+# ====== #
+# Builds #
+# ====== #
+*.apk
+*.unitypackage
+
+# ========================== #
+# Crashlytics generated file #
+# ========================== #
+crashlytics-build.properties
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+# Filtro do programa GoodSync
+Assets/Project Assets/3D Models/_gsdata_
+Assets/Project Assets/3D Models/sync.ffs_db
+Assets/Project Assets/3D Models/sync.ffs_db.meta
+Assets/Project Assets/Textures/sync.ffs_db
+Assets/Project Assets/Textures/sync.ffs_db.meta
