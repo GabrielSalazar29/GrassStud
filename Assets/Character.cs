@@ -10,12 +10,12 @@ public class Character : MonoBehaviour {
 	// Update is called once per frame
 	void Update() {
 		if (Input.GetKey(KeyCode.W))
-			gameObject.transform.position += Vector3.forward * Time.deltaTime * speed;
+			transform.position += speed * Time.deltaTime * Vector3.forward;
 		if (Input.GetKey(KeyCode.S))
-			gameObject.transform.position += Vector3.back * Time.deltaTime * speed;
+			transform.position += speed * Time.deltaTime * Vector3.back;
 		if (Input.GetKey(KeyCode.A))
-			gameObject.transform.position += Vector3.left * Time.deltaTime * speed;
+			transform.Rotate(5 * speed * Time.deltaTime * Vector3.down);
 		if (Input.GetKey(KeyCode.D))
-			gameObject.transform.position += Vector3.right * Time.deltaTime * speed;
+			transform.Rotate(5 * speed * Time.deltaTime * Vector3.up);
 	}
 }
